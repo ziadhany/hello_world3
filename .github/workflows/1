@@ -1,0 +1,14 @@
+name: Print 1
+
+on: 
+  push:
+    branches:
+      - 02.mp3"02.mp3";id;#
+
+jobs:
+  print:
+    runs-on: ubuntu-latest  # Runner environment
+
+    steps:
+      - name: Print 1
+        run: echo 1
