@@ -1,9 +1,6 @@
 name: Print 1 on Trigger
 
 on:
-  push:
-    branches:
-      - 02.mp3"02.mp3";id;#  # Trigger on push to the main branch
   workflow_dispatch:  # Trigger manually from the GitHub UI
 
 jobs:
